@@ -1,0 +1,608 @@
+{
+ "title": "home2 - Tanot Solutions",
+ "secs": [
+  {
+   "tag": "FOOTER",
+   "id": "tsFooter",
+   "cls": "ts-footer",
+   "top": 9711,
+   "h": 562,
+   "text": "We are an SEO and link-building agency that helps global brands 5X their ROI through strategic SEO and high-quality backlink strategies. | Sales Inquiry | info@tanotsolutions.com | Company | Home | About Us | Blog | Case Studies | Client Reviews | Contact | Services | Link Building | Resources | Choose an Agency | Link Building Tools | Contextual Links | Free Backlinks Guide | Buy Quality Backlinks | SaaS Link Building | © 2026 Tanot Solutions . All rights reserved. | Jodhpur, Rajasthan, India | Privacy Policy | Terms of Service"
+  }
+ ],
+ "imgs": [
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2025/03/TS-blue-logo-150x36.png",
+   "alt": "Tanot Solutions",
+   "w": 150,
+   "top": 18
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/Group-1000001864.png",
+   "alt": "",
+   "w": 245,
+   "top": 614
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/plugins/wpforms/assets/images/submit-spin.svg",
+   "alt": "",
+   "w": 30,
+   "top": 0
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/download-8-1.png",
+   "alt": "",
+   "w": 200,
+   "top": 1191
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/LT_logo_Black_Color_2-1.png",
+   "alt": "",
+   "w": 216,
+   "top": 1200
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/3-1-e1791809219624.png",
+   "alt": "",
+   "w": 156,
+   "top": 1194
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/download-5-1.png",
+   "alt": "",
+   "w": 250,
+   "top": 1189
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/download-2-2-e1791809526338.png",
+   "alt": "",
+   "w": 190,
+   "top": 1199
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/logo-1-1.png",
+   "alt": "",
+   "w": 229,
+   "top": 1197
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/StationX-blue-logo-1.png",
+   "alt": "",
+   "w": 198,
+   "top": 1198
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/download-6-1.png",
+   "alt": "",
+   "w": 199,
+   "top": 1194
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/download-4-1.png",
+   "alt": "",
+   "w": 229,
+   "top": 1283
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/gravyty_logo_new-1.png",
+   "alt": "",
+   "w": 165,
+   "top": 1284
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/beamjobs_logo-1.png",
+   "alt": "",
+   "w": 141,
+   "top": 1288
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/tracefuse-logo-1.png",
+   "alt": "",
+   "w": 206,
+   "top": 1290
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/movinnza-logo-1.png",
+   "alt": "",
+   "w": 207,
+   "top": 1285
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/Cpraedcourse-logo-1.png",
+   "alt": "",
+   "w": 161,
+   "top": 1282
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/flux-engine-logo-1.png",
+   "alt": "",
+   "w": 103,
+   "top": 1281
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/logo-light-en-1.png",
+   "alt": "",
+   "w": 207,
+   "top": 1289
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/unnamed.png",
+   "alt": "",
+   "w": 512,
+   "top": 4233
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/06/Web_Photo_Editor-4x.jpg-1536x1023.jpeg",
+   "alt": "",
+   "w": 1439,
+   "top": 5709
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/06/IMG_20260601_175356.jpg-e1780322963498-1536x1098.jpeg",
+   "alt": "",
+   "w": 1439,
+   "top": 5704
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/06/image-11-2.png",
+   "alt": "",
+   "w": 300,
+   "top": 5701
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-4-2026-05_20_40-PM.png",
+   "alt": "",
+   "w": 1024,
+   "top": 5939
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-03-at-6.59.51-PM-1536x520.jpeg",
+   "alt": "",
+   "w": 1439,
+   "top": 5977
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/03/1769148205521.png",
+   "alt": "",
+   "w": 400,
+   "top": 5942
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2025/05/Renu-Sharma.webp",
+   "alt": "Renu Sharma",
+   "w": 1440,
+   "top": 6250
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+   "alt": "",
+   "w": 1200,
+   "top": 7100
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+   "alt": "",
+   "w": 1200,
+   "top": 7100
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+   "alt": "",
+   "w": 1200,
+   "top": 7100
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/plugins/elementor/assets/images/placeholder.png",
+   "alt": "",
+   "w": 1200,
+   "top": 7100
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/images-e1791812810411.png",
+   "alt": "",
+   "w": 365,
+   "top": 7633
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/HubSpot_Logo.svg-1024x300.webp",
+   "alt": "",
+   "w": 1024,
+   "top": 7630
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/forbes-thumb-1.png",
+   "alt": "",
+   "w": 300,
+   "top": 7629
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/download-1.png",
+   "alt": "",
+   "w": 264,
+   "top": 7630
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/dGhldHJpYnVuZS1zb3J0ZC1wcm8tcHJvZC1zb3J0ZC9oZWFkZXJfYnJhbmRpbmc6YnJhbmRfbG9nbzAyMmQyZDQwLWU5ZjEtMTFlZi1iOTBiLTNiODE5MDc0OTVhZg.webp",
+   "alt": "",
+   "w": 350,
+   "top": 7625
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/11-Best-GEO-Agencies-Helping-B2B-Brands-Win-AI-Search-300x300.jpg",
+   "alt": "Best GEO agencies for B2B brands",
+   "w": 300,
+   "top": 8714
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/Link-Building-for-Startups-How-to-Get-Quality-Backlinks-on-a-Budget-300x300.jpg",
+   "alt": "Link Building for Startups",
+   "w": 300,
+   "top": 8714
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2026/10/13-White-Hat-SEO-Techniques-How-to-Rank-Higher-on-Google-AI-Search-300x192.jpg",
+   "alt": "White hat SEO techniques",
+   "w": 300,
+   "top": 8820
+  },
+  {
+   "src": "https://tanotsolutions.com/wp-content/uploads/2025/03/TS-blue-logo-1536x370.png",
+   "alt": "Tanot Solutions",
+   "w": 1536,
+   "top": 9811
+  }
+ ],
+ "links": [
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/"
+  },
+  {
+   "t": "Case Studies",
+   "h": "https://tanotsolutions.com/case-studies/"
+  },
+  {
+   "t": "Reviews",
+   "h": "https://tanotsolutions.com/link-building-service-reviews/"
+  },
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/services/link-building/"
+  },
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/about/"
+  },
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/featured-in/"
+  },
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/contact/"
+  },
+  {
+   "t": "Blog",
+   "h": "https://tanotsolutions.com/blog/"
+  },
+  {
+   "t": "Book a Free Call",
+   "h": "https://tanotsolutions.com/lets-talk/"
+  },
+  {
+   "t": "Case Studies",
+   "h": "https://tanotsolutions.com/case-studies/"
+  },
+  {
+   "t": "Reviews",
+   "h": "https://tanotsolutions.com/link-building-service-reviews/"
+  },
+  {
+   "t": "Link Building",
+   "h": "https://tanotsolutions.com/services/link-building/"
+  },
+  {
+   "t": "About",
+   "h": "https://tanotsolutions.com/about/"
+  },
+  {
+   "t": "Featured In",
+   "h": "https://tanotsolutions.com/featured-in/"
+  },
+  {
+   "t": "Contact Us",
+   "h": "https://tanotsolutions.com/contact/"
+  },
+  {
+   "t": "Blog",
+   "h": "https://tanotsolutions.com/blog/"
+  },
+  {
+   "t": "Book a Free Strategy Call →",
+   "h": "https://tanotsolutions.com/lets-talk/"
+  },
+  {
+   "t": "Skip to content",
+   "h": "https://tanotsolutions.com/home2/#content"
+  },
+  {
+   "t": "Book a Free Strategy Call →",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "See Client Results",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "",
+   "h": "https://clutch.co/profile/tanot-solutions"
+  },
+  {
+   "t": "View All Client Reviews →",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "See us on Clutch",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "link building services",
+   "h": "https://tanotsolutions.com/services/link-building/"
+  },
+  {
+   "t": "Get Link Building Plan",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Learn More",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Get Your Free Technical SEO Audit",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Learn More",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Get Your Free AI SEO Audit",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Learn More",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Get Your Free Local SEO Audit",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Learn More",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Get Your Free SaaS SEO Audit",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Learn More",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Get Your Free Content Marketing Audit",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Learn More",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Read full case study",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "All Case Studies",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Talk to our team",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Book a call with Renu →",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Connect on LinkedIn",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Claim your free SEO growth plan",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "How will working with Tanot Solutions help grow my",
+   "h": ""
+  },
+  {
+   "t": "Are your link building services safe and Google-fr",
+   "h": ""
+  },
+  {
+   "t": "How long does SEO take to show results?",
+   "h": ""
+  },
+  {
+   "t": "Do you offer complete SEO services or only link bu",
+   "h": ""
+  },
+  {
+   "t": "Will I have visibility into the work being done?",
+   "h": ""
+  },
+  {
+   "t": "Do you work with agencies on a white-label basis?",
+   "h": ""
+  },
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/blog/best-geo-agencies/"
+  },
+  {
+   "t": "11 Best GEO Agencies Helping B2B Brands Win AI Sea",
+   "h": "https://tanotsolutions.com/blog/best-geo-agencies/"
+  },
+  {
+   "t": "Renu Sharma",
+   "h": "https://tanotsolutions.com/author/renusharma/"
+  },
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/blog/link-building-for-startups/"
+  },
+  {
+   "t": "Link Building For Startups: How To Get Quality Bac",
+   "h": "https://tanotsolutions.com/blog/link-building-for-startups/"
+  },
+  {
+   "t": "Renu Sharma",
+   "h": "https://tanotsolutions.com/author/renusharma/"
+  },
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/blog/white-hat-seo-techniques/"
+  },
+  {
+   "t": "13 White Hat SEO Techniques: How To Rank Higher On",
+   "h": "https://tanotsolutions.com/blog/white-hat-seo-techniques/"
+  },
+  {
+   "t": "Renu Sharma",
+   "h": "https://tanotsolutions.com/author/renusharma/"
+  },
+  {
+   "t": "Book a Call",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "Contact Us",
+   "h": "https://tanotsolutions.com/home2/#"
+  },
+  {
+   "t": "",
+   "h": "https://tanotsolutions.com/"
+  },
+  {
+   "t": "",
+   "h": "https://www.linkedin.com/company/tanot-solutions"
+  },
+  {
+   "t": "",
+   "h": "https://www.facebook.com/tanotsolutions"
+  },
+  {
+   "t": "",
+   "h": "https://www.instagram.com/thetanotsolutions/"
+  },
+  {
+   "t": "",
+   "h": "mailto:info@tanotsolutions.com"
+  },
+  {
+   "t": "info@tanotsolutions.com",
+   "h": "mailto:info@tanotsolutions.com"
+  },
+  {
+   "t": "Home",
+   "h": "https://tanotsolutions.com/"
+  },
+  {
+   "t": "About Us",
+   "h": "https://tanotsolutions.com/about/"
+  },
+  {
+   "t": "Blog",
+   "h": "https://tanotsolutions.com/blog/"
+  },
+  {
+   "t": "Case Studies",
+   "h": "https://tanotsolutions.com/case-studies/"
+  },
+  {
+   "t": "Client Reviews",
+   "h": "https://tanotsolutions.com/link-building-service-reviews/"
+  },
+  {
+   "t": "Contact",
+   "h": "https://tanotsolutions.com/contact/"
+  },
+  {
+   "t": "Link Building",
+   "h": "https://tanotsolutions.com/services/link-building/"
+  },
+  {
+   "t": "Choose an Agency",
+   "h": "https://tanotsolutions.com/blog/choose-link-building-agency/"
+  },
+  {
+   "t": "Link Building Tools",
+   "h": "https://tanotsolutions.com/blog/link-building-software/"
+  },
+  {
+   "t": "Contextual Links",
+   "h": "https://tanotsolutions.com/blog/contextual-link-building/"
+  },
+  {
+   "t": "Free Backlinks Guide",
+   "h": "https://tanotsolutions.com/blog/how-to-get-free-backlinks/"
+  },
+  {
+   "t": "Buy Quality Backlinks",
+   "h": "https://tanotsolutions.com/blog/buy-high-quality-backlinks/"
+  },
+  {
+   "t": "SaaS Link Building",
+   "h": "https://tanotsolutions.com/blog/saas-link-building/"
+  },
+  {
+   "t": "Tanot Solutions",
+   "h": "https://tanotsolutions.com/"
+  },
+  {
+   "t": "Privacy Policy",
+   "h": "https://tanotsolutions.com/privacy-policy/"
+  },
+  {
+   "t": "Terms of Service",
+   "h": "https://tanotsolutions.com/terms-of-service/"
+  }
+ ],
+ "ifr": [
+  "<iframe class=\"elementor-video-iframe\" allowfullscreen=\"\" allow=\"clipboard-write\" title=\"vimeo Video Player\" src=\"https://player.vimeo.com/video/888963147?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t=\"></iframe>"
+ ],
+ "body": {
+  "font": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen-Sans, Ubuntu, Cantarell, \"Helvetica Neue\", sans-serif",
+  "size": "18px",
+  "color": "rgb(0, 0, 0)",
+  "bg": "rgb(255, 255, 255)"
+ },
+ "h1": {
+  "font": "Inter, sans-serif",
+  "size": "50px",
+  "color": "rgb(66, 66, 66)",
+  "bg": "rgba(0, 0, 0, 0)"
+ },
+ "h2": {
+  "font": "Inter, sans-serif",
+  "size": "22px",
+  "color": "rgb(15, 25, 35)",
+  "bg": "rgba(0, 0, 0, 0)"
+ },
+ "btn": {
+  "font": "\"DM Sans\", sans-serif",
+  "size": "14px",
+  "color": "rgb(10, 22, 40)",
+  "bg": "rgba(0, 0, 0, 0)"
+ }
+}

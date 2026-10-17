@@ -1,0 +1,77 @@
+/* ==========================================================================
+   Tanot motion kit: plain CSS, no framework. Shared by Version 1 and Version 2.
+   Drop-in for a WordPress theme: enqueue this file and motion.js, then add the
+   data-attributes below to the markup.
+   ========================================================================== */
+:root { --m-ease: cubic-bezier(0.16, 1, 0.3, 1); }
+
+@keyframes m-reveal { from { opacity: 0; transform: translate3d(0, var(--m-y, 24px), 0); } to { opacity: 1; transform: none; } }
+@keyframes m-rise   { from { opacity: 0; transform: translate3d(0, 18px, 0); } to { opacity: 1; transform: none; } }
+@keyframes m-rise-s { from { opacity: 0; transform: translate3d(0, 40px, 0) scale(0.98); } to { opacity: 1; transform: none; } }
+@keyframes m-word   { from { transform: translate3d(0, 110%, 0); } to { transform: none; } }
+@keyframes m-draw   { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@keyframes m-fade   { from { opacity: 0; } to { opacity: 1; } }
+@keyframes m-pop    { from { opacity: 0; transform: scale(0.6); } to { opacity: 1; transform: none; } }
+@keyframes m-tab    { from { opacity: 0; transform: translate3d(0, 14px, 0); } to { opacity: 1; transform: none; } }
+
+/* ---- Scroll reveals (JS adds .is-in when an element enters the viewport) ---- */
+@media (scripting: enabled) {
+  [data-reveal],
+  [data-stagger-item] { opacity: 0; }
+}
+[data-reveal].is-in,
+[data-stagger-item].is-in { animation: m-reveal 0.7s var(--m-ease) var(--m-delay, 0s) both; }
+
+/* ---- Entrance sequences (pure CSS, no JS needed) ---- */
+[data-rise] { animation: m-rise 0.8s var(--m-ease) var(--m-delay, 0s) both; }
+[data-rise="card"] { animation-name: m-rise-s; animation-duration: 0.9s; }
+[data-word-wrap] { display: inline-block; overflow: hidden; padding-bottom: 0.12em; vertical-align: bottom; }
+[data-word] { display: inline-block; animation: m-word 0.85s var(--m-ease) var(--m-delay, 0s) both; }
+.m-draw { stroke-dasharray: 1; stroke-dashoffset: 1; animation: m-draw var(--m-dur, 1.4s) var(--m-ease) var(--m-delay, 0s) forwards; }
+.m-fade { animation: m-fade 0.9s ease var(--m-delay, 0s) both; }
+.m-pop { transform-box: fill-box; transform-origin: center; animation: m-pop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) var(--m-delay, 0s) both; }
+
+/* ---- Accordion (<details data-acc>): animated by motion.js, works without JS ---- */
+details[data-acc] > summary { list-style: none; cursor: pointer; }
+details[data-acc] > summary::-webkit-details-marker { display: none; }
+details[data-acc] .acc-icon { transition: transform 0.5s var(--m-ease), background-color 0.3s, color 0.3s, border-color 0.3s; }
+details[data-acc][open] .acc-icon { transform: rotate(45deg); }
+
+/* ---- Menus (toggled via data-open on [data-menu]) ---- */
+[data-menu] [data-menu-item] { opacity: 0; transform: translate3d(0, 18px, 0); transition: opacity 0.5s var(--m-ease), transform 0.5s var(--m-ease); transition-delay: 0s; }
+[data-menu][data-open] [data-menu-item] { opacity: 1; transform: none; transition-delay: calc(0.25s + var(--i, 0) * 0.06s); }
+
+/* full-screen circle reveal (Version 2) */
+[data-menu="circle"] {
+  clip-path: circle(0% at calc(100% - 44px) 44px);
+  visibility: hidden;
+  transition: clip-path 0.6s var(--m-ease), visibility 0s linear 0.6s;
+}
+[data-menu="circle"][data-open] { clip-path: circle(150% at calc(100% - 44px) 44px); visibility: visible; transition-delay: 0s; }
+
+/* slide-in drawer with dimmed overlay (Version 1) */
+[data-menu="drawer"] { visibility: hidden; transition: visibility 0s linear 0.5s; }
+[data-menu="drawer"][data-open] { visibility: visible; transition-delay: 0s; }
+[data-menu="drawer"] [data-menu-overlay] { opacity: 0; transition: opacity 0.4s ease; }
+[data-menu="drawer"][data-open] [data-menu-overlay] { opacity: 1; }
+[data-menu="drawer"] [data-menu-panel] { transform: translate3d(100%, 0, 0); transition: transform 0.5s var(--m-ease); }
+[data-menu="drawer"][data-open] [data-menu-panel] { transform: none; }
+
+/* ---- Sliding highlight (nav hover pill, tab indicator) ---- */
+[data-pill] { transition: transform 0.35s var(--m-ease), width 0.35s var(--m-ease), height 0.35s var(--m-ease), opacity 0.2s ease; will-change: transform; }
+
+/* ---- Tabs ---- */
+[data-panel][data-active] { animation: m-tab 0.3s var(--m-ease) both; }
+[data-panel]:not([data-active]) { display: none; }
+
+/* ---- Carousel: hide the scrollbar ---- */
+[data-carousel-track] { scrollbar-width: none; }
+[data-carousel-track]::-webkit-scrollbar { display: none; }
+
+/* ---- Reduced motion: everything lands in its final state ---- */
+@media (prefers-reduced-motion: reduce) {
+  [data-reveal], [data-stagger-item] { opacity: 1 !important; animation: none !important; }
+  [data-rise], [data-word], .m-fade, .m-pop, [data-panel][data-active] { animation: none !important; }
+  .m-draw { animation: none !important; stroke-dashoffset: 0; }
+  [data-menu], [data-menu] *, [data-pill] { transition-duration: 0.01ms !important; transition-delay: 0s !important; }
+}
