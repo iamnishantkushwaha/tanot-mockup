@@ -27,7 +27,7 @@ export function buildToc(blocks: ArticleBlock[]): { toc: TocItem[]; ids: Map<num
 const proseLinks =
   "[&_a]:font-medium [&_a]:text-brand-600 [&_a]:underline [&_a]:decoration-brand-300 [&_a]:underline-offset-4 [&_a]:transition-colors hover:[&_a]:decoration-brand-600 [&_strong]:font-semibold [&_strong]:text-ink";
 
-export function ArticleBody({ blocks, ids, prefix = "" }: { blocks: ArticleBlock[]; ids: Map<number, string>; prefix?: "" | "/v2" }) {
+export function ArticleBody({ blocks, ids, prefix = "" }: { blocks: ArticleBlock[]; ids: Map<number, string>; prefix?: "" | "/v2" | "/v3" }) {
   const html = (h: string) => ({ __html: localizeHtml(h, prefix) });
   return (
     <div className={cn("text-[17px] leading-[1.8] text-body", proseLinks)}>

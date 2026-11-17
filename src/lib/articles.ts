@@ -2,6 +2,7 @@ import postsData from "@/data/posts.json";
 import casesData from "@/data/cases.json";
 import { routes, SITE } from "./site";
 import { v2 } from "./v2";
+import { v3 } from "./v3";
 
 // ---- Blog ----------------------------------------------------------------
 
@@ -114,8 +115,8 @@ const pagePaths: Record<string, string> = {
 };
 
 /** Maps a tanotsolutions.com URL to its local route when that page exists in this build. */
-export function localizeHref(href: string, prefix: "" | "/v2" = ""): { href: string; external: boolean } {
-  const out = (h: string) => (prefix ? v2(h) : h);
+export function localizeHref(href: string, prefix: "" | "/v2" | "/v3" = ""): { href: string; external: boolean } {
+  const out = (h: string) => (prefix === "/v3" ? v3(h) : prefix ? v2(h) : h);
   if (href.startsWith("#") || href.startsWith("mailto:") || href.startsWith("/")) return { href, external: false };
   if (!href.startsWith(SITE) && !href.startsWith("http://tanotsolutions.com")) return { href, external: /^https?:/.test(href) };
   let u: URL;
@@ -137,7 +138,7 @@ export function localizeHref(href: string, prefix: "" | "/v2" = ""): { href: str
 }
 
 /** Rewrites every <a href> inside sanitized article HTML to local routes where possible; external links open in a new tab. */
-export function localizeHtml(html: string, prefix: "" | "/v2" = ""): string {
+export function localizeHtml(html: string, prefix: "" | "/v2" | "/v3" = ""): string {
   return html.replace(/<a href="([^"]*)">/g, (_m, href: string) => {
     const decoded = href.replace(/&amp;/g, "&");
     const l = localizeHref(decoded, prefix);
