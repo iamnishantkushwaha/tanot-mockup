@@ -39,7 +39,7 @@ export function V3Footer() {
         </p>
         <div className="mt-16 grid gap-12 border-t border-white/10 pt-14 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div className="max-w-sm">
-            <Image src="/images/brand/logo-large.png" alt="Tanot Solutions" width={1536} height={370} style={{ width: "auto", height: 38 }} className="brightness-0 invert" />
+            <Image src="/images/brand/logo-large.png" alt="Tanot Solutions" width={1536} height={370} style={{ width: "auto", height: 38 }} />
             <p className="mt-5 text-[15px] leading-relaxed text-white/70">{footer.blurb}</p>
             <ul className="mt-6 flex flex-wrap gap-2">
               {social.map(([label, href]) => (
