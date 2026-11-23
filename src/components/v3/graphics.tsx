@@ -54,8 +54,8 @@ export function HeroGraphic() {
         <svg viewBox="0 0 500 510" className="absolute inset-0 size-full" fill="none" aria-hidden>
           <defs>
             <linearGradient id="v3area" x1="0" x2="0" y1="0" y2="1">
-              <stop offset="0" stopColor="#8cc8ea" stopOpacity="0.38" />
-              <stop offset="1" stopColor="#8cc8ea" stopOpacity="0" />
+              <stop offset="0" stopColor="#65ad4d" stopOpacity="0.38" />
+              <stop offset="1" stopColor="#65ad4d" stopOpacity="0" />
             </linearGradient>
             <pattern id="v3grid" width="42" height="42" patternUnits="userSpaceOnUse">
               <path d="M42 0H0V42" stroke="white" strokeOpacity="0.07" />
@@ -68,7 +68,7 @@ export function HeroGraphic() {
             style={delay(0.5, 1.8)}
             pathLength={1}
             d="M40 410 C110 395 150 360 205 345 S300 270 350 215 S430 110 462 82"
-            stroke="#8cc8ea"
+            stroke="#65ad4d"
             strokeWidth="5"
             strokeLinecap="round"
           />
@@ -77,13 +77,13 @@ export function HeroGraphic() {
           <path className="m-fade" style={delay(1.2)} d="M205 110 L180 215 L300 165" stroke="white" strokeOpacity="0.3" strokeWidth="2" strokeLinecap="round" />
           {nodes.map(([x, y, r], i) => (
             <g key={i} className="m-pop" style={delay(1.1 + i * 0.12)}>
-              <circle cx={x} cy={y} r={r + 8} fill="#8cc8ea" fillOpacity="0.14" />
-              <circle cx={x} cy={y} r={r} fill={i === 3 ? "#8cc8ea" : "white"} />
+              <circle cx={x} cy={y} r={r + 8} fill="#65ad4d" fillOpacity="0.14" />
+              <circle cx={x} cy={y} r={r} fill={i === 3 ? "#65ad4d" : "white"} />
             </g>
           ))}
           <g className="m-pop" style={delay(2.0)}>
-            <circle cx="462" cy="82" r="17" fill="#8cc8ea" />
-            <circle cx="462" cy="82" r="30" stroke="#8cc8ea" strokeOpacity="0.4" />
+            <circle cx="462" cy="82" r="17" fill="#65ad4d" />
+            <circle cx="462" cy="82" r="30" stroke="#65ad4d" strokeOpacity="0.4" />
           </g>
         </svg>
         <p className="absolute left-6 top-6 text-[11px] font-bold uppercase tracking-[0.2em] text-lime/90">Organic growth</p>
@@ -132,7 +132,7 @@ export function Sticker({ text, className }: { text: string; className?: string 
       <defs>
         <path id={id} d="M60 60 m-44 0 a44 44 0 1 1 88 0 a44 44 0 1 1 -88 0" />
       </defs>
-      <circle cx="60" cy="60" r="58" fill="#8cc8ea" />
+      <circle cx="60" cy="60" r="58" fill="#65ad4d" />
       <text fontSize="9" fontWeight="700" letterSpacing="2" fill="#0a1628" fontFamily="var(--font-dm)">
         <textPath href={`#${id}`}>{text}</textPath>
       </text>
