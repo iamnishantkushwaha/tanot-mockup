@@ -205,7 +205,7 @@ export default async function V3CaseStudy({ params }: { params: Promise<{ slug: 
               </V3Link>
             </Rise>
             <Rise delay={0.05}>
-              <h1 className="text-balance text-[2.1rem] leading-[1.04] sm:text-5xl lg:text-[3.3rem] [&_em]:font-medium [&_em]:italic">
+              <h1 className="text-balance text-[2.1rem] leading-[1.04] sm:text-5xl lg:text-[3.3rem] [&_em]:font-medium [&_em]:not-italic">
                 <AccentTitle html={c.titleHtml} />
               </h1>
             </Rise>

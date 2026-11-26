@@ -93,7 +93,7 @@ export function Head({
       {eyebrow && <Eyebrow light={light}>{eyebrow}</Eyebrow>}
       <Tag
         className={cn(
-          "text-balance text-[2.1rem] leading-[1.05] sm:text-5xl lg:text-[3.4rem] [&_em]:font-medium [&_em]:italic",
+          "text-balance text-[2.1rem] leading-[1.05] sm:text-5xl lg:text-[3.4rem] [&_em]:font-medium [&_em]:not-italic",
           eyebrow && "mt-5",
           light ? "text-white [&_em]:text-lime" : "text-ink [&_em]:text-brand-500",
         )}

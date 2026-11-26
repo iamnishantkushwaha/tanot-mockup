@@ -54,7 +54,7 @@ export function PageHeroV3({
             </Rise>
           )}
           <Rise delay={0.05}>
-            <h1 className="mt-5 text-balance text-[2.5rem] leading-[1.02] sm:text-6xl lg:text-[4.2rem] [&_em]:font-medium [&_em]:italic [&_em]:text-brand-500">{title}</h1>
+            <h1 className="mt-5 text-balance text-[2.5rem] leading-[1.02] sm:text-6xl lg:text-[4.2rem] [&_em]:font-medium [&_em]:not-italic [&_em]:text-brand-500">{title}</h1>
           </Rise>
           {body && (
             <Rise delay={0.15}>
@@ -290,7 +290,7 @@ export function CheckV3({ items, cols = 1, light }: { items: React.ReactNode[]; 
 
 export function Underlined({ children }: { children: React.ReactNode }) {
   return (
-    <span className="relative inline-block italic text-brand-500">
+    <span className="relative inline-block text-brand-500">
       {children}
       <Squiggle className="absolute -bottom-[0.12em] left-0 text-lime-600" />
     </span>

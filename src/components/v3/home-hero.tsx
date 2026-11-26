@@ -49,7 +49,7 @@ export function V3Hero() {
               <Image src="/images/brand/clutch-badge.png" alt="Reviewed on Clutch, 5.0 rating" width={245} height={102} priority style={{ width: 128, height: "auto" }} />
             </a>
             <h1 className="text-[clamp(2.5rem,5.1vw,4.7rem)] leading-[1] text-ink">
-              <span className="relative mr-2 inline-block whitespace-nowrap pb-2 italic text-brand-500 sm:pb-3">
+              <span className="relative mr-2 inline-block whitespace-nowrap pb-2 text-brand-500 sm:pb-3">
                 <Words text={hero.titleAccent} />
                 <Squiggle className="absolute -bottom-0 left-0 text-lime-600" />
               </span>
