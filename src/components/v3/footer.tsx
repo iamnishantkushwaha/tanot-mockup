@@ -2,7 +2,6 @@ import Image from "next/image";
 import { Mail, MapPin } from "lucide-react";
 import { footer } from "@/lib/content";
 import { links } from "@/lib/site";
-import { Sparkle } from "./graphics";
 import { V3Link, Wrap } from "./ui";
 
 function Col({ title, items }: { title: string; items: readonly (readonly [string, string])[] }) {
@@ -31,13 +30,8 @@ const social = [
 export function V3Footer() {
   return (
     <footer className="relative overflow-hidden bg-navy-950 text-white">
-      <Sparkle className="absolute right-[8%] top-12 size-10 text-lime/70" />
-      <Sparkle className="absolute right-[18%] top-28 size-5 text-white/30" />
       <Wrap className="relative pt-20">
-        <p className="max-w-4xl font-display text-4xl font-medium leading-[1.08] tracking-tight sm:text-6xl">
-          SEO that earns trust, <em className="text-lime">one editorial link</em> at a time.
-        </p>
-        <div className="mt-16 grid gap-12 border-t border-white/10 pt-14 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
+        <div className="grid gap-12 pt-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
           <div className="max-w-sm">
             <Image src="/images/brand/logo-large.png" alt="Tanot Solutions" width={1536} height={370} style={{ width: "auto", height: 38 }} />
             <p className="mt-5 text-[15px] leading-relaxed text-white/70">{footer.blurb}</p>
